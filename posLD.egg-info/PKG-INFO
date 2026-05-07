@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: posLD
-Version: 0.1.0
+Version: 0.1.1
 Summary: Compute Moving-Average Type-Token Ratio (MATTR) across POS-based token categories for corpus linguistics research.
 Author-email: "Taehyeong (Terry) Kim" <tk654@nau.edu>
 License: CC BY-NC-SA 4.0
