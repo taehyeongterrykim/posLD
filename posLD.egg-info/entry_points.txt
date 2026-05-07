@@ -1,0 +1,2 @@
+[console_scripts]
+posLD = posLD.__main__:main

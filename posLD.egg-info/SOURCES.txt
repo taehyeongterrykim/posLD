@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+posLD/__init__.py
+posLD/__main__.py
+posLD/compute_LD.py
+posLD.egg-info/PKG-INFO
+posLD.egg-info/SOURCES.txt
+posLD.egg-info/dependency_links.txt
+posLD.egg-info/entry_points.txt
+posLD.egg-info/requires.txt
+posLD.egg-info/top_level.txt
