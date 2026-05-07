@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "posLD"
-version = "0.1.0"
+version = "0.1.1"
 description = "Compute Moving-Average Type-Token Ratio (MATTR) across POS-based token categories for corpus linguistics research."
 readme = "README.md"
 license = { text = "CC BY-NC-SA 4.0" }
