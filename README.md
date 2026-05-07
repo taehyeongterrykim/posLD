@@ -20,11 +20,7 @@ Once installed, import the package and call the function, replacing `"path/to/yo
 
     import posLD
 
-    posLD.compute_LD(input_path="path/to/your/folder")
-
-You can also run it from the terminal:
-
-    posLD data/texts/
+    posLD.compute_LD(input_path=r"path/to/your/folder")
 
 ---
 
@@ -43,17 +39,21 @@ You can also run it from the terminal:
 ### Examples
 
     # Defaults: lemma form, window size 50, increment 1, en_core_web_lg
-    posLD.compute_LD(input_path="path/to/your/folder")
+    posLD.compute_LD(input_path=r"path/to/your/folder")
 
     # Surface form only
-    posLD.compute_LD(input_path="path/to/your/folder", form="surface")
+    posLD.compute_LD(input_path=r"path/to/your/folder", form="surface")
 
     # Both lemma and surface, custom window size and increment
-    posLD.compute_LD(input_path="path/to/your/folder", form="both", window_size=100, increment=5)
+    posLD.compute_LD(input_path=r"path/to/your/folder", form="both", window_size=100, increment=5)
 
 ---
 
 ## CLI Arguments
+
+You can also run posLD directly from the terminal, replacing `"path/to/your/folder"` with the full path to your folder containing `.txt` files (use quotes around the path, especially if it contains spaces):
+
+    posLD "path/to/your/folder"
 
 | Argument | Required | Description |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ You can also run it from the terminal:
 - Computes MATTR using a sliding window over tokens
 - Excludes non-alphabetic tokens from all calculations
 - Excludes the verb *be* from verb and content word lists
-- Excludes proper nouns (e.g., *London*, *Terry*) from noun and content word lists
+- Excludes proper nouns from noun and content word lists
 - Reports `NA` when a text has fewer tokens than the window size
 
 Computes MATTR for four token categories (columns depend on the `form` argument):
