@@ -4,7 +4,24 @@
 
 ---
 
+## Desktop App
+
+A standalone desktop app is available for Mac and Windows. Click the link for your operating system below to download:
+
+| Platform | File |
+| --- | --- |
+| macOS (M1/M2/M3, macOS 10.15+) | [posLD_mac.zip](https://drive.google.com/file/d/1WoB9ql-k4h0V1iag6_LMxBkBBWYYRRZ6/view?usp=sharing) → unzip → double-click `posLD.app` |
+| Windows (64-bit, Windows 10+) | [posLD_windows.zip](https://drive.google.com/file/d/1IIAKQIijlWY1kOSM6fZvaW-ggBs5s5xw/view?usp=sharing) → unzip → double-click `posLD.exe` |
+
+**Note for Mac users:** If you see a security warning, right-click the app → **Open** → **Open**.
+
+**Note for Windows users:** Keep `posLD.exe` and the `_internal/` folder in the same location. The app will not run without both.
+
+---
+
 ## Install and Usage
+
+> **Note:** This section is for users who want to use posLD as a Python package (e.g., in a script or termianl).
 
 First, install the package using pip:
 
